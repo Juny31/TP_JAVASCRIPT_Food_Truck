@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name": "Pizza", "price": 10, "image": "../images/pizza.png" },
+    { "id": 2, "name": "Tacos", "price": 8, "image": "../../images/tacos.png" },
+    { "id": 3, "name": "Salade", "price": 7.5, "image": "images/salade.png" }
+  ]
+  

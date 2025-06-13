@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Food Truck</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🍔 Mini Food Truck</h1>
+
+  <section class="menu">
+    <h2>Menu</h2>
+    <div id="menu-container"></div>
+  </section>
+
+  <section class="panier">
+    <h2>Panier</h2>
+    <div id="panier-container"></div>
+    <p><strong>Total :</strong> <span id="total">0€</span></p>
+    <button id="btn-commander">Commander</button>
+  </section>
+
+  <button id="reset">🔄 Réinitialiser toutes les commandes</button>
+
+  <section class="recap" id="recap-section" style="display: none;">
+    <h2>Récapitulatif de commande</h2>
+    <div id="recap-container"></div>
+    <button id="valider">Valider</button>
+    <button id="annuler">Annuler</button>
+  </section>
+
+  <section class="suivi" id="suivi-section" style="display: none;">
+    <h2>Suivi de commande</h2>
+    <div id="suivi-etat">En attente...</div>
+    <progress id="progress-bar" max="100" value="0" style="width: 100%;"></progress>
+  </section>
+
+  <section id="commandes-section">
+    <h2>Commandes en cours</h2>
+    <ul id="liste-commandes"></ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
